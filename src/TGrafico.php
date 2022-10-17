@@ -1,5 +1,7 @@
 <?php
 
+namespace AdiantiGraficos\Plugins\HighchartsPHP;
+
 use Adianti\Widget\Base\TElement;
 use Adianti\Widget\Base\TScript;
 use AdiantiGraficos\Plugins\HighchartsPHP\HighchartOption;
