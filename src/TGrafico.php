@@ -160,6 +160,12 @@ class TGrafico extends TElement implements ArrayAccess
 
    public function show()
    {
+      TPage::include_js('lib/jquery/js/highcharts.js');
+      TPage::include_js('lib/jquery/js/data.js');
+      TPage::include_js('lib/jquery/js/drilldown.js');
+      TPage::include_js('lib/jquery/js/exporting.js');
+      TPage::include_js('lib/jquery/js/offline-exporting.js');
+
       $result = '';
       $result .= 'new Highcharts.';
 
